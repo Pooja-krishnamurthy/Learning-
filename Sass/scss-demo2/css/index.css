@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  background-color: rgb(219, 102, 180);
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  padding: 2rem;
+}
+
+h1 a {
+  color: #f92f2f;
+}
+h1 a:hover {
+  color: #88df9a;
+}
+
+button {
+  background-color: #e3b024;
+  width: 10rem;
+  height: 2rem;
+}

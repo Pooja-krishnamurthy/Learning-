@@ -1,0 +1,46 @@
+@import "mixin";
+@import "var";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+ font-size:62.5%;
+}
+
+
+.main {
+    @include flexproperty; //mixin
+    height:100vh;
+    width:100vw;
+    display: flex;
+    // place-items: center;
+   
+      
+    //nested
+    h1{
+        @include commonproperty(1.5rem,uppercase);
+        &:hover { //nested
+            color:azure;
+        }
+        
+        &::after{
+            content:"Learning"
+        }
+    }
+    
+    p{
+        @include commonproperty(0.3rem,capitalize);
+        &:hover { //nested
+            color:azure;
+        }
+    }
+    
+}
+
+
+
+ 

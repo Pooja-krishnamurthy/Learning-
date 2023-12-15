@@ -1,0 +1,15 @@
+//mixin
+@mixin flexproperty {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: $bg-color; // variable
+}
+
+//mixin with parameter
+@mixin commonproperty($para1,$para2){
+    color: rgb(25, 59, 11);
+    font-size:5rem +5rem;
+    text-transform: $para2;
+    letter-spacing: $para1
+}
